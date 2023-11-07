@@ -9,7 +9,6 @@ root.render(
   //<h2>Hello React JS</h2>
   <React.StrictMode>
     <App />
-    <h4>React JS</h4>
   </React.StrictMode>
 );
 
