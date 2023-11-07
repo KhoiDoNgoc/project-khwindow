@@ -7,8 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          DO NGOC KHOI
+          NGOC KHOI          
         </p>
+        <h2>Heloo React JS</h2>
       </header>
     </div>
   );
