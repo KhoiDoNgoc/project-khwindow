@@ -6,9 +6,20 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  //<React.StrictMode>
+    //<App />
+  //</React.StrictMode>
+
+  function ColorBox(prop){
+    const { color } = prop;
+    return (
+       <div className="box" style={{backgroundColor:color}}></div>
+    )
+  }
+  
+  //export default ColorBox;
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
@@ -17,11 +28,4 @@ root.render(
 reportWebVitals();
 
 
-function ColorBox(prop){
-  const { color } = prop;
-  return (
-     <div className="box" style={{backgroundColor:color}}></div>
-  )
-}
 
-export default ColorBox;
