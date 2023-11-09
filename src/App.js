@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 //import './App.css';
-import './ColorBox.js';
 
+import ColorBox from './index.js'
 
 //function App() {
   //return (
@@ -18,16 +18,6 @@ import './ColorBox.js';
 //}
 
 //export default App;
-
-function ColorBox(prop){
-  const { color } = prop;
-  return (
-     <div className="box" style={{backgroundColor:color}}></div>
-  )
-}
-
-
-export default ColorBox;
 
 
 export function App() {

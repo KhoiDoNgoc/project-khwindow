@@ -16,3 +16,12 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+
+function ColorBox(prop){
+  const { color } = prop;
+  return (
+     <div className="box" style={{backgroundColor:color}}></div>
+  )
+}
+
+export default ColorBox;
