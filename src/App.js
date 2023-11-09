@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 
-import ColorBox from './index.js'
-
 function App() {
   return (
     <div className="App">
