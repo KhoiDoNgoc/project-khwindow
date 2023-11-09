@@ -1,5 +1,7 @@
 //import logo from './logo.svg';
 //import './App.css';
+import './ColorBox.js';
+
 
 //function App() {
   //return (
@@ -24,4 +26,16 @@ function ColorBox(prop){
   )
 }
 
+
 export default ColorBox;
+
+
+export function App() {
+  return (
+    <select>
+      <ColorBox color="red"></ColorBox>
+      <ColorBox color="blue"></ColorBox>
+      <ColorBox color="green"></ColorBox>
+    </select>
+  );
+}
