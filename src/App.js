@@ -23,9 +23,9 @@ import ColorBox from './index.js'
 export function App() {
   return (
     <select>
-      <ColorBox color="red"></ColorBox>
-      <ColorBox color="blue"></ColorBox>
-      <ColorBox color="green"></ColorBox>
+      <ColorBox color="red">aaaaaaaa</ColorBox>
+      <ColorBox color="blue">bbbbbbbbb</ColorBox>
+      <ColorBox color="green">cccccccccc</ColorBox>
     </select>
   );
 }
