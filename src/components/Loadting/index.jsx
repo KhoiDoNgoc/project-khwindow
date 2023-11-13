@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './styles.scss';
 
-ServicPage.propTypes = {
+Loading.propTypes = {
     
 };
 
-function ServicPage(props) {
+function Loading(props) {
     return (
         <div>
-            Serviecs Page
+            Loading
         </div>
     );
 }
 
-export default ServicPage;
+export default Loading;
