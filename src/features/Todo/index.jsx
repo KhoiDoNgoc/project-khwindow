@@ -10,7 +10,7 @@ function TodoFeature(props) {
     const todoList = [
         {
             id: 1,
-            title: 'Ngoc Khoi'
+            title: 'Do Ngoc Khoi'
         },
         {
             id: 2,
@@ -18,11 +18,11 @@ function TodoFeature(props) {
         },
         {
             id: 3,
-            title: 'Coder'
+            title: 'Coder HTML/CSS'
         },
         {
             id: 4,
-            email: 'khoidng13@gmail.com'
+            title: 'khoidng13@gmail.com'
         }
     ];
     return (
