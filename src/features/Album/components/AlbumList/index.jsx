@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Album from '../Album';
+import './styles.scss';
 
 AlbumList.propTypes = {
     albumListAr: PropTypes.array.isRequired,
@@ -8,7 +9,7 @@ AlbumList.propTypes = {
 
 function AlbumList({ albumListAr }) {
     return (
-        <ul>
+        <ul className="album__list">
             {albumListAr.map(albumListArMap => (
                 <li key={albumListArMap.id}>
                     {/*GET Data to Album*/}
