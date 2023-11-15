@@ -2,16 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 Album.propTypes = {
-    AlbumInfor: PropTypes.array.isRequired,
+    albumInfor: PropTypes.object.isRequired,
 };
 
-function Album({ AlbumInfor }) {
+function Album({ albumInfor }) {
     return (
         <div>
             <div>
-                <img src={AlbumInfor.urlAlum} alt={AlbumInfor.nameAlum} />
+                <img src={albumInfor.urlAlum} alt={albumInfor.nameAlum} />
             </div>
-            <p>{AlbumInfor.nameAlum}</p>
+            <p>{albumInfor.nameAlum}</p>
         </div>
     );
 }

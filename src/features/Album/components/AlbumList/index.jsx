@@ -2,18 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Album from '../Album';
 
-
 AlbumList.propTypes = {
-    AlbumListAr: PropTypes.array.isRequired,
+    albumListAr: PropTypes.array.isRequired,
 };
 
-function AlbumList({ AlbumListAr }) {
+function AlbumList({ albumListAr }) {
     return (
         <ul>
-            {AlbumListAr.map(albumlistAr => (
-                <li key={albumlistAr.id}>
+            {albumListAr.map(albumListArMap => (
+                <li key={albumListArMap.id}>
                     {/*GET Data to Album*/}
-                    <Album AlbumInfor={AlbumListAr} />
+                    <Album albumInfor={albumListArMap} />
                 </li>
             ))}
         </ul>
