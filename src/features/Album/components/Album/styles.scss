@@ -1,11 +1,11 @@
 .album{
-    &__url{
+    &-url{
         & > img{
             border-radius: 1rem;
         }
     }
 
-    &__name{
+    &-name{
         font-weight: bold;
     }
 }

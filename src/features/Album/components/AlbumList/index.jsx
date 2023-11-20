@@ -9,7 +9,7 @@ AlbumList.propTypes = {
 
 function AlbumList({ albumListAr }) {
     return (
-        <ul className="album__list">
+        <ul className="album-list">
             {albumListAr.map(albumListArMap => (
                 <li key={albumListArMap.id}>
                     {/*GET Data to Album*/}

@@ -9,10 +9,10 @@ Album.propTypes = {
 function Album({ albumInfor }) {
     return (
         <div className='album'>
-            <div className='album__url'>
+            <div className='album-url'>
                 <img src={albumInfor.urlAlum} alt={albumInfor.nameAlum} />
             </div>
-            <p className='album__name'>{albumInfor.nameAlum}</p>
+            <p className='album-name'>{albumInfor.nameAlum}</p>
         </div>
     );
 }
